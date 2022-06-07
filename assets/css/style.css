@@ -19,7 +19,7 @@ h1{
     padding: 1em;
 }
 p{
- font-family: 'Roboto',sans-serif;
+    font-family: 'Roboto',sans-serif;
 }
 p span{
     opacity: 0.5;
@@ -32,8 +32,8 @@ p span{
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto auto;
     grid-area:'main';
-    column-gap: 10%;
-    row-gap: 4%;
+    column-gap: 15px;
+    row-gap: 15px;
 }
 .footer{
     grid-area: 'footer';
@@ -46,7 +46,7 @@ p span{
     'sidebar main'
     'footer footer';
     padding: 2em;
-    background-color: rgba(245, 245, 245, 0.441);
+    background-color:#DBDFD6;
 }
 .boton{
     background-color: #2a527a;
@@ -58,11 +58,9 @@ p span{
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: space-between;
-    border-style: solid;
-    border-width: 0.5px;
-    border-color: black;
 }
 .tarjeta{
+    background-color: #fff;
     display: flex;
     flex-direction: column;
     align-items: center;
